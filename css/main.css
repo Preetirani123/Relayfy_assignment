@@ -1,0 +1,209 @@
+/*------Desktop code here------*/
+#head{
+  background-color: #DD1416;
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+h1#head img {
+    width: 340px;
+}
+
+.content-section {
+    width: 60%;
+    margin: auto;
+}
+
+.imageclass {
+    width: 20%;
+    float: left;
+    height: 186px;
+    background: #ffffff;
+}
+
+.imageclass img {
+    width: 100%;
+    padding-top: 18px;
+}
+
+li.listclass {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    background: #f6f6f6;
+    border: 1px solid #fbfbfb;
+    box-shadow: 0px 0px 20px #ece8e8;
+}
+
+.textclass {
+    width: 60%;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+li .textclass h2{
+  font-size: 2.0rem;
+  color: #000000;
+}
+
+li .textclass p{
+  font-size: 1.2rem;
+  color: #6b6767;
+}
+
+ul#all-products {
+    border: 1px solid #ddd6d6;
+    border-radius: 7px;
+    padding: 3px;
+    box-shadow: 0px 0px 20px #ddd6d6;
+    background: #ddd6d6;
+}
+
+.buttonclass {
+    width: 12%;
+    float: left;
+    text-align: center;
+    padding: 63px 0px;
+    border-left: 1px solid #ddd6d6;
+}
+
+#all-products{
+  color: RED;
+}
+
+.buttonclass a {
+  font-size: 3em;
+  text-decoration: none;
+  color: #a49d9d;
+}
+
+.buttonclass a:hover{
+  color: #DD1416
+}
+
+li.listclass:last-child {
+    border-bottom: 0px;
+}
+
+button#place-order-button {
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 25px;
+    float: right;
+    width: 17%;
+    margin-top: 15px;
+}
+
+div#pageone {
+    background-image: url(/content/assets/productImages/burger.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3#selected-products-header a {
+    background: #cf2624;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.footer-areas {
+    width: 60%;
+    margin: auto;
+}
+
+.footer-areas h1 {
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+}
+
+/*----- Mobile code here-------------------*/
+
+@media screen and (max-width: 767px){
+  .content-section,.imageclass {
+    width: 100%;
+}
+
+.textclass{
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+
+.buttonclass{
+  width: 100%;
+    padding: 0px;
+    border-left: 0;
+}
+
+li.listclass{
+  margin-bottom: 12px;
+}
+
+.imageclass{
+  height: auto;
+}
+
+.footer-areas {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-areas h1 {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+button#place-order-button {
+    margin: 0;
+    float: none;
+    width: initial;
+    margin-bottom: 20px;
+}
+
+.awesome{
+  font-size: 40px;
+  text-align: center;
+}}
+
+@media screen and (max-width: 320px){
+.awesome{
+    font-size: 35px;
+    text-align: center;
+  }
+
+h1#head img {
+      width: 312px;
+}}
+
+/*---------Tablet code here --------------*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+.content-section {
+    width: 100%;
+}
+
+.textclass{
+  margin-left: 30px;
+}
+
+.footer-areas {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-areas h1 {
+    width: 50%;
+    text-align: center;
+}
+
+button#place-order-button{
+  width: initial;
+      margin: 20px;
+}}
