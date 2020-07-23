@@ -1,6 +1,6 @@
 # Relayfy_assignment
 
-For localhost:
+For localhost
 
 Windows:
 1. Navigate to the folder
